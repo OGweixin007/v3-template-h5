@@ -1,7 +1,7 @@
 # v3-template-h5
 
 #### Description
-基于vue3+vite+vant+pinia的mobile app模板
+基于vue3+vite+vant+pinia+tailwindcss的mobile app模板
 
 #### Software Architecture
 Software architecture description
