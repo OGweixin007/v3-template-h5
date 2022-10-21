@@ -9,9 +9,10 @@
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  git clone https://gitee.com/ogweixin_007/v3-template-h5.git
+2.  cd v3-template-h5
+3.  pnpm install
+4.  pnpm run dev
 
 #### 使用说明
 
