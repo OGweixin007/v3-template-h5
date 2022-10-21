@@ -1,7 +1,7 @@
 # v3-template-h5
 
 #### 介绍
-基于vue3+vite+vant+pinia的mobile app模板
+基于vue3+vite+vant+pinia——tailwindcss的mobile app模板
 
 #### 软件架构
 软件架构说明
