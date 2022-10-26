@@ -28,11 +28,11 @@ function btnSetUser() {
 
 function btnSetData() {
     userStore.$patch(state => {
-        state.token = 'x-token-custom',
-            state.userInfo = Object.assign({}, state.userInfo, {
-                name: 'sara',
-                age: 18
-            })
+        state.token = 'x-token-custom'
+        state.userInfo = Object.assign({}, state.userInfo, {
+            name: 'sara',
+            age: 18
+        })
     })
 }
 

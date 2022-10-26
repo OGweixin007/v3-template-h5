@@ -1,13 +1,13 @@
 <script setup>
 import { ref } from 'vue'
-import {Toast} from 'vant'
+import { Toast } from 'vant'
 
 defineProps({
   msg: String
 })
 
-function btnCLick(){
-  Toast("something happend!")
+function btnCLick() {
+  Toast('something happend!')
 }
 
 const count = ref(0)
@@ -17,7 +17,7 @@ const count = ref(0)
   <h1>{{ msg }}</h1>
 
   <van-button type="primary" @click="btnCLick">主要按钮</van-button>
-  
+
   <div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>
     <p>
@@ -28,8 +28,9 @@ const count = ref(0)
 
   <p>
     Check out
-    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank">create-vue</a>, the official Vue + Vite
-    starter
+    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
+      >create-vue</a
+    >, the official Vue + Vite starter
   </p>
   <p>
     Install

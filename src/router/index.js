@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHistory } from 'vue-router'
 // import Nprogress from 'nprogress';
 
 export const constantRoutes = [
@@ -19,21 +19,21 @@ export const constantRoutes = [
 const router = createRouter({
   history: createWebHistory(),
   // history: createWebHashHistory(),
-  routes: constantRoutes,
-});
+  routes: constantRoutes
+})
 
 router.beforeEach((to, from, next) => {
   // 权限等判断...
   // Nprogress.start();
   // 路由不存在跳转home
   if (!to.matched.length) {
-    next('/');
+    next('/')
   }
-  next();
-});
+  next()
+})
 
 router.afterEach(() => {
   // Nprogress.done();
-});
+})
 
-export default router;
+export default router
