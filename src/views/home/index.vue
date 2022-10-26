@@ -64,8 +64,9 @@ const count = ref(0)
 
     <p>
       Check out
-      <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank">create-vue</a>, the official Vue + Vite
-      starter
+      <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
+        >create-vue</a
+      >, the official Vue + Vite starter
     </p>
     <p>
       Install
@@ -76,8 +77,8 @@ const count = ref(0)
     <h1 class="mt-2 mb-2">
       <span class="text-blue-500 text-sm">v3 Hooks:</span>
       <span>当前鼠标点击坐标为:</span>
-      <span class="text-blue-500 text-sm">x:{{ point.x }}</span>,<span class="text-blue-500 text-sm">y:{{ point.y
-      }}</span>
+      <span class="text-blue-500 text-sm">x:{{ point.x }}</span
+      >,<span class="text-blue-500 text-sm">y:{{ point.y }}</span>
     </h1>
   </div>
   <van-tabbar v-model="active">
