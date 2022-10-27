@@ -2,23 +2,14 @@
 
 #### Description
 
-基于 vue3+vite+vant+pinia+tailwindcss 的 mobile app 模板
-
-#### Software Architecture
-
-Software architecture description
+webapp template based on vue3+vite+vant+pinia+tailwindcss
 
 #### Installation
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Instructions
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  git clone https://gitee.com/ogweixin_007/v3-template-h5.git
+2.  cd v3-template-h5
+3.  pnpm install
+4.  pnpm run dev
 
 #### Contribution
 
@@ -35,3 +26,47 @@ Software architecture description
 4.  The most valuable open source project [GVP](https://gitee.com/gvp)
 5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
 6.  The most popular members [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+
+#### Project Directory
+
+```
+|-- v3-template-h5
+    |-- .husky
+    |   |-- pre-commit
+    |   |-- _
+    |       |-- .gitignore
+    |       |-- husky.sh
+    |-- .vscode
+    |   |-- extensions.json
+    |-- public
+    |   |-- vite.svg
+    |-- src
+        |-- App.vue
+        |-- main.js
+        |-- style.css
+        |-- api
+        |-- assets
+        |-- components
+        |-- hooks
+        |-- router
+        |-- store
+        |-- styles
+        |-- tailwindcss
+        |-- utils
+        |-- views
+    |-- .eslintignore
+    |-- .eslintrc.cjs
+    |-- .gitignore
+    |-- .prettierrc.cjs
+    |-- .stylelintrc.cjs
+    |-- index.html
+    |-- LICENSE
+    |-- package-lock.json
+    |-- package.json
+    |-- pnpm-lock.yaml
+    |-- postcss.config.cjs
+    |-- README.en.md
+    |-- README.md
+    |-- tailwind.config.cjs
+    |-- vite.config.js
+```
