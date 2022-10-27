@@ -6,7 +6,7 @@ webapp template based on vue3+vite+vant+pinia+tailwindcss
 
 #### Installation
 
-1.  git clone https://gitee.com/ogweixin_007/v3-template-h5.git
+1.  git clone https://github.com/OGweixin007/v3-template-h5.git
 2.  cd v3-template-h5
 3.  pnpm install
 4.  pnpm run dev
